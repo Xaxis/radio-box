@@ -105,14 +105,12 @@ sudo apt install -y \
   git curl wget vim htop tmux \
   usbutils udev \
   pavucontrol \
-  hamlib-utils \
   wsjtx \
   flrig fldigi flmsg flamp \
   chrony
 ```
 
 Notes:
-- `hamlib-utils` gives `rigctl`, `rigctld`, and friends.
 - `pavucontrol` is essential for consistent audio sanity.
 - `chrony` is reliable time sync (important for FT8/FT4 decode quality).
 
